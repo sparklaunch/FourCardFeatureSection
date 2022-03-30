@@ -14,6 +14,7 @@ struct ContentView: View {
             ScrollView {
                 Title()
             }
+            .padding(EdgeInsets(top: 100, leading: 30, bottom: 100, trailing: 30))
         }
         .ignoresSafeArea()
     }
